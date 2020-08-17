@@ -1,4 +1,14 @@
-# currencyconverter
+## Description
+```
+ rates is a array of objects. 
+   rates : [
+         {id:1,from:'USD',to:'BDT',rate:84.75},
+         {id:2,from:'POUND',to: 'BDT',rate:110.86},
+         {id:3,from:'CAD',to: 'BDT',rate:64.07},
+       ]
+  default currency is BDT 
+  by default send , receive has default value  
+```
 
 ## Project setup
 ```
@@ -15,10 +25,4 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
